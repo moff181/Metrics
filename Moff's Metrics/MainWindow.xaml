@@ -1,0 +1,53 @@
+﻿<Window x:Class="Moff_s_Metrics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Moff_s_Metrics"
+        mc:Ignorable="d"
+        Title="Moff's Metrics" Height="450" Width="800">
+    <StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Button Content="Select Project" Grid.Column="0" x:Name="ProjectSelectButton" Click="ProjectSelectButton_Click" />
+            <Button Content="Refresh" Grid.Column="1" x:Name="RefreshButton" Click="RefreshButton_Click" />
+        </Grid>
+
+        <TextBlock x:Name="SelectedProject" Margin="2,0,0,0"><Bold>No project selected.</Bold></TextBlock>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Name="ExcludedDirectoriesLabel" Margin="-3,0,0,0">
+                <Bold>Excluded Directories:</Bold>
+            </Label>
+            <TextBox Grid.Column="1" Margin="0,5,0,0" Name="ExcludedDirectoriesTextBox" VerticalAlignment="Top" />
+        </Grid>
+
+        <StackPanel x:Name="LanguageSelectionPanel" Orientation="Horizontal">
+            <Label x:Name="LanguageSelectionLabel" Margin="-2, 0, 0, 0" FontWeight="Bold">Language Selection:</Label>
+
+            <ComboBox x:Name="LanguageSelectionCombo" SelectionChanged="LanguageSelectionCombo_SelectionChanged">
+                <ComboBoxItem Content="C++" />
+                <ComboBoxItem Content="C#" />
+                <ComboBoxItem Content="Java" />
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel x:Name="Output" >
+            <TextBlock x:Name="CodeLines" Margin="2,0,0,0"><Bold>Code Lines:</Bold> N/A</TextBlock>
+            <TextBlock x:Name="HeaderCodeLines" Margin="2,0,0,0"><Bold>Header Code Lines:</Bold> N/A</TextBlock>
+            <TextBlock x:Name="CPPCodeLines" Margin="2,0,0,0"><Bold>CPP Code Lines:</Bold> N/A</TextBlock>
+            <TextBlock x:Name="Comments" Margin="2,0,0,0"><Bold>Comments:</Bold> N/A</TextBlock>
+            <TextBlock x:Name="EmptyLines" Margin="2,0,0,0"><Bold>Empty Lines:</Bold> N/A</TextBlock>
+            <TextBlock x:Name="CommentsPerCodeLine" Margin="2,0,0,0"><Bold>Comments Per 100 Code Lines:</Bold> N/A</TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Window>

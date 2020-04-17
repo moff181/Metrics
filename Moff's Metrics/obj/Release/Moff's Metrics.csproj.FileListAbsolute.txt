@@ -1,0 +1,15 @@
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\bin\Release\Moffs Metrics.exe.config
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\bin\Release\Moffs Metrics.exe
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\bin\Release\Moffs Metrics.pdb
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\MainWindow.g.cs
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\App.g.cs
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moffs Metrics_MarkupCompile.cache
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moffs Metrics_MarkupCompile.lref
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\MainWindow.baml
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moffs Metrics.g.resources
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moff_s_Metrics.Properties.Resources.resources
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moff's Metrics.csproj.GenerateResource.cache
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moff's Metrics.csproj.CoreCompileInputs.cache
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moffs Metrics.exe
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moffs Metrics.pdb
+C:\Users\Will\Dropbox\C#\Moff's Metrics\Moff's Metrics\obj\Release\Moff's Metrics.csprojAssemblyReference.cache
